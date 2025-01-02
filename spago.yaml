@@ -1,0 +1,165 @@
+package:
+  dependencies:
+  - aeson
+  - aff
+  - arraybuffer-types
+  - arrays
+  - bifunctors
+  - bytearrays
+  - cardano-plutus-data-schema
+  - cardano-serialization-lib
+  - control
+  - datetime
+  - effect
+  - either
+  - encoding
+  - exceptions
+  - foldable-traversable
+  - foreign-object
+  - integers
+  - js-bigints
+  - lattice
+  - lists
+  - literals
+  - maybe
+  - monad-logger
+  - mote
+  - mote-testplan
+  - newtype
+  - nonempty
+  - nullable
+  - ordered-collections
+  - partial
+  - prelude
+  - profunctor
+  - profunctor-lenses
+  - quickcheck
+  - rationals
+  - record
+  - safe-coerce
+  - spec
+  - these
+  - tuples
+  - typelevel-prelude
+  - uint
+  - unfoldable
+  - unsafe-coerce
+  name: cardano-types
+workspace:
+  extra_packages:
+    aeson:
+      dependencies:
+      - aff
+      - argonaut
+      - argonaut-codecs
+      - argonaut-core
+      - arrays
+      - bifunctors
+      - const
+      - control
+      - effect
+      - either
+      - exceptions
+      - foldable-traversable
+      - foreign-object
+      - integers
+      - js-bigints
+      - lists
+      - maybe
+      - mote
+      - numbers
+      - ordered-collections
+      - partial
+      - prelude
+      - quickcheck
+      - record
+      - spec
+      - strings
+      - tuples
+      - typelevel
+      - typelevel-prelude
+      - uint
+      - untagged-union
+      git: https://github.com/mlabs-haskell/purescript-aeson.git
+      ref: v2.0.0
+    bytearrays:
+      dependencies:
+      - aeson
+      - aff
+      - arraybuffer-types
+      - effect
+      - either
+      - foldable-traversable
+      - maybe
+      - newtype
+      - prelude
+      - quickcheck
+      - quickcheck-laws
+      - spec
+      - strings
+      git: https://github.com/mlabs-haskell/purescript-bytearrays
+      ref: v1.0.0
+    cardano-plutus-data-schema:
+      dependencies:
+      - prelude
+      git: https://github.com/mlabs-haskell/purescript-cardano-plutus-data-schema
+      ref: 110ba00261b1480895f8412016c639ea655412f6
+    cardano-serialization-lib:
+      dependencies:
+      - aeson
+      - argonaut
+      - bifunctors
+      - bytearrays
+      - console
+      - effect
+      - either
+      - enums
+      - maybe
+      - nullable
+      - ordered-collections
+      - partial
+      - prelude
+      - profunctor
+      - tuples
+      - unsafe-coerce
+      git: https://github.com/mlabs-haskell/purescript-cardano-serialization-lib
+      ref: 2cd72914b9c427b5d5b4edfd5bc08d5758a01fd4
+    js-bigints:
+      dependencies:
+      - integers
+      - maybe
+      - prelude
+      git: https://github.com/purescript-contrib/purescript-js-bigints
+      ref: 36a7d8ac75a7230043ae511f3145f9ed130954a9
+    lattice:
+      dependencies:
+      - console
+      - prelude
+      - properties
+      git: https://github.com/Risto-Stevcev/purescript-lattice.git
+      ref: v0.3.0
+    mote-testplan:
+      dependencies:
+      - aff
+      - console
+      - datetime
+      - effect
+      - foldable-traversable
+      - maybe
+      - mote
+      - newtype
+      - numbers
+      - ordered-collections
+      - prelude
+      - spec
+      - transformers
+      git: https://github.com/mlabs-haskell/purescript-mote-testplan
+      ref: v1.0.0
+    properties:
+      dependencies:
+      - console
+      - prelude
+      git: https://github.com/Risto-Stevcev/purescript-properties.git
+      ref: v0.2.0
+  package_set:
+    url: https://raw.githubusercontent.com/purescript/package-sets/psc-0.15.4-20230105/packages.json
